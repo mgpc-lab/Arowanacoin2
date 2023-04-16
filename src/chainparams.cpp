@@ -126,6 +126,7 @@ public:
         vSeeds.emplace_back("216.240.140.174"); // Pieter Wuille, only supports x1, x5, x9, and xd
         vSeeds.emplace_back("163.197.63.50"); // Pieter Wuille, only supports x1, x5, x9, and xd
 
+        
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,23);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,73);
         base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,53);
